@@ -41,6 +41,7 @@ loaders_and_params = {
         'llama_cpp_seed',
         'compress_pos_emb',
         'alpha_value',
+        'cpu',
     ],
     'llamacpp_HF': [
         'n_ctx',
@@ -55,6 +56,7 @@ loaders_and_params = {
         'llama_cpp_seed',
         'compress_pos_emb',
         'alpha_value',
+        'cpu',
         'llamacpp_HF_info',
     ],
     'Transformers': [
@@ -113,9 +115,12 @@ loaders_samplers = {
         'mirostat_mode',
         'mirostat_tau',
         'mirostat_eta',
+        'guidance_scale',
+        'negative_prompt',
         'ban_eos_token',
         'add_bos_token',
         'skip_special_tokens',
+        'auto_max_new_tokens',
     },
     'ExLlama_HF': {
         'temperature',
@@ -139,6 +144,7 @@ loaders_samplers = {
         'ban_eos_token',
         'add_bos_token',
         'skip_special_tokens',
+        'auto_max_new_tokens',
     },
     'ExLlama': {
         'temperature',
@@ -148,7 +154,10 @@ loaders_samplers = {
         'repetition_penalty',
         'repetition_penalty_range',
         'seed',
+        'guidance_scale',
+        'negative_prompt',
         'ban_eos_token',
+        'auto_max_new_tokens',
     },
     'AutoGPTQ': {
         'temperature',
@@ -173,9 +182,12 @@ loaders_samplers = {
         'mirostat_mode',
         'mirostat_tau',
         'mirostat_eta',
+        'guidance_scale',
+        'negative_prompt',
         'ban_eos_token',
         'add_bos_token',
         'skip_special_tokens',
+        'auto_max_new_tokens',
     },
     'GPTQ-for-LLaMa': {
         'temperature',
@@ -200,9 +212,12 @@ loaders_samplers = {
         'mirostat_mode',
         'mirostat_tau',
         'mirostat_eta',
+        'guidance_scale',
+        'negative_prompt',
         'ban_eos_token',
         'add_bos_token',
         'skip_special_tokens',
+        'auto_max_new_tokens',
     },
     'llama.cpp': {
         'temperature',
@@ -237,6 +252,7 @@ loaders_samplers = {
         'ban_eos_token',
         'add_bos_token',
         'skip_special_tokens',
+        'auto_max_new_tokens',
     },
 }
 
